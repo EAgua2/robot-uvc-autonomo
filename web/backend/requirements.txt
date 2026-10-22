@@ -1,0 +1,13 @@
+# Backend de la interfaz web (FastAPI + YOLOv8).
+# rclpy, cv_bridge y los mensajes de ROS 2 se instalan con ROS 2 Jazzy, no con pip.
+fastapi==0.115.12
+uvicorn==0.34.3
+websockets==15.0.1
+ultralytics==8.3.152
+torch==2.5.1          # usa la variante CUDA si tienes GPU NVIDIA
+torchvision==0.20.1
+opencv-python==4.11.0.86
+pillow==11.0.0
+numpy==2.1.2
+requests==2.32.3
+paramiko
