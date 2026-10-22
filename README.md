@@ -157,6 +157,8 @@ flowchart TB
 
 Aplicación de una sola página (SPA) en **React + Tailwind CSS** con un backend en **FastAPI** que funciona como puente con ROS 2 mediante WebSockets ([`web/`](web/)). Muestra en tiempo real la cámara con las detecciones de **YOLOv8n**, el mapa, el nivel de batería con alertas sonoras y el progreso de la desinfección. Desde el panel se puede iniciar la desinfección o hacer un paro de emergencia, y la página de control remoto permite teleoperar el robot con un D-pad o con las teclas WASD/flechas.
 
+<p align="center"><img src="docs/img/deteccion_yolo.jpg" width="80%" alt="Detección de objetos con YOLOv8"><br><em>Detección de obstáculos con YOLOv8n (modelo preentrenado en COCO): botellas, una mochila y personas, con su nivel de confianza.</em></p>
+
 | Panel principal | Teleoperación |
 |---|---|
 | ![Interfaz web](docs/img/interfaz_web.jpg) | ![Teleoperación](docs/img/teleoperacion.jpg) |
