@@ -101,7 +101,7 @@ python demo/demo_cobertura.py
 ## 🏗️ Arquitectura
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph RPI["Raspberry Pi 5 · Ubuntu 24.04 · ROS 2 Jazzy"]
         K[Kinect v1<br/>RGB-D] --> RTAB[RTAB-Map<br/>SLAM visual]
         RTAB -->|mapa de ocupación| CN[coverage_node<br/>CPP + A*]
