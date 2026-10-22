@@ -35,17 +35,6 @@
 
 ---
 
-## 👤 Mi rol en el proyecto
-
-<!-- TODO: completa esta sección. Es lo primero que lee un reclutador. Ejemplo:
-- Diseñé e implementé el planificador de cobertura (CPP + A*) y su integración con Nav2.
-- Desarrollé los nodos de ROS 2 que comunican la Raspberry Pi 5 con las ESP32 (UART y Wi-Fi).
-- Realicé las pruebas de detección de obstáculos con YOLOv8.
--->
-
-_Proyecto de titulación desarrollado en equipo de 3 integrantes. Asesores: M. en E. Elizabeth Rivas Bonilla y Dr. Rodrigo Eduardo Arévalo Ancona._
-
----
 
 ## 🧩 El problema
 
